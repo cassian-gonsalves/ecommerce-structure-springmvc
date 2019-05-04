@@ -6,39 +6,39 @@ A Ecommerce website using spring MVC configuration where in Supplier can post hi
 
 
 ### Technologies Used: ###
-1. Spring MVC Framework.
-2. Hibernate.
-3. MySql Server for databse.
-4. Java Script for validations.
-5. Bootstrap for Front end layout
+1. Spring MVC Framework.<br/>
+2. Hibernate.<br/>
+3. MySql Server for databse.<br/>
+4. Java Script for validations.<br/>
+5. Bootstrap for Front end layout<br/>
 
 
 ### Roles and Tasks ###
-1. Admin:
-•	Adds a supplier
-•	Deletes a supplier if needed
-•	Approves orders made by customers
-•	Declines orders made by customer
+1. Admin:<br/>
+•	Adds a supplier<br/>
+•	Deletes a supplier if needed<br/>
+•	Approves orders made by customers<br/>
+•	Declines orders made by customer<br/>
 
-2. Supplier:
-•	Add and set category of a product
-•	Upload Images for the product
-•	Delete product
+2. Supplier:<br/>
+•	Add and set category of a product<br/>
+•	Upload Images for the product<br/>
+•	Delete product<br/>
 
-3. Customer:
-•	Searches for products based on category
-•	Places Order for products
+3. Customer:<br/>
+•	Searches for products based on category<br/>
+•	Places Order for products<br/>
 
 
 
 ### Key Functionalities/Implementations ###
--	JavaScript validations for forms
--	Backend validations for existing users
--	Mappings using annotations
--	Bootstrap for responsive UI.
--	Main admin is added through database queries, he is responsible for adding suppliers via UI.
--	The supplier adds products, right now there are limited categories provided in future we can let the admin or supplier create categories.
--	The customer can register himself and check the products based on categories and order the based on quantities its total price is calculated.
+-	JavaScript validations for forms<br/>
+-	Backend validations for existing users<br/>
+-	Mappings using annotations<br/>
+-	Bootstrap for responsive UI.<br/>
+-	Main admin is added through database queries, he is responsible for adding suppliers via UI.<br/>
+-	The supplier adds products, right now there are limited categories provided in future we can let the admin or supplier create categories.<br/>
+-	The customer can register himself and check the products based on categories and order the based on quantities its total price is calculated.<br/>
 
 
 
