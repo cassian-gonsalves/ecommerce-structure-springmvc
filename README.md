@@ -5,7 +5,7 @@
 A Ecommerce website using spring MVC configuration where in Supplier can post his products such as Laptops, Computers and spare parts of computers/External peripheral devices like Usb Sticks, Hard disks, RAM etc. Currently there are only a few pre-defined categories namely Laptops, RAM, USB Sticks and Portable Hard Drives. These can be posted and bought in bulk by customers. The admin entity approves the sale. This project has a vast future scope where in there could be multiple categories as well as products and could be made similar to trending E-commerce websites.
 
 
-###Technologies Used:###
+### Technologies Used: ###
 1. Spring MVC Framework.
 2. Hibernate.
 3. MySql Server for databse.
@@ -13,7 +13,7 @@ A Ecommerce website using spring MVC configuration where in Supplier can post hi
 5. Bootstrap for Front end layout
 
 
-###Roles and Tasks###
+### Roles and Tasks ###
 1. Admin:
 •	Adds a supplier
 •	Deletes a supplier if needed
@@ -31,7 +31,7 @@ A Ecommerce website using spring MVC configuration where in Supplier can post hi
 
 
 
-###Key Functionalities/Implementations###
+### Key Functionalities/Implementations ###
 -	JavaScript validations for forms
 -	Backend validations for existing users
 -	Mappings using annotations
