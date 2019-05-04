@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/webtools_final_project?zeroDateTimeBehavior=convertToNull&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.connection.password">cassian156</property>
+
+		<property name="hibernate.hbm2ddl.auto">update</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="hibernate.show_sql">true</property>
+		
+	    <mapping class="com.neu.cassian.pojo.Address" />
+		<mapping class="com.neu.cassian.pojo.Admin" />
+		<mapping class="com.neu.cassian.pojo.Customer" />
+		<mapping class="com.neu.cassian.pojo.Order" />
+		<mapping class="com.neu.cassian.pojo.OrderItem" />
+		<mapping class="com.neu.cassian.pojo.Person" />
+		<mapping class="com.neu.cassian.pojo.Product" />
+		<mapping class="com.neu.cassian.pojo.Supplier" />
+		<mapping class="com.neu.cassian.pojo.UserAccount" />
+		
+
+	</session-factory>
+</hibernate-configuration>

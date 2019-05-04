@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+   <bean id="userAccountDao" class="com.neu.cassian.dao.UserAccountDao" > </bean>
+   <bean id="supplierDao" class="com.neu.cassian.dao.SupplierDao" > </bean>
+   <bean id="customerDao" class="com.neu.cassian.dao.CustomerDao" > </bean>
+   <bean id="productDao" class="com.neu.cassian.dao.ProductDao" > </bean>
+   <bean id="orderDao" class="com.neu.cassian.dao.OrderDao" > </bean>
+   
+   	<bean id="productValidator" class="com.neu.cassian.validator.ProductValidator"></bean>
+   	<bean id="customerValidator" class="com.neu.cassian.validator.CustomerValidator"></bean>
+</beans> 
